@@ -1,0 +1,33 @@
+name: Daily Trending Security Audit
+
+on:
+  schedule:
+    # Daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Trend & Vulnerability Analysis
+        run: python scripts/scanner.py
+
+      - name: Commit & Push Audit Logs
+        run: |
+          git config --global user.name "secops-bot[bot]"
+          git config --global user.email "secops-bot[bot]@users.noreply.github.com"
+          git add README.md reports/
+          git diff-index --quiet HEAD || git commit -m "secops: update daily trending audit log [$(date -u +'%Y-%m-%d')]"
+          git push
