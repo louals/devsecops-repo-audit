@@ -21,3 +21,8 @@ Automated daily DevSecOps pipeline tracking public repository telemetry and secu
 | 2026-10-19 | `donnemartin/system-design-primer` | 374670 | `SECURE` |
 | 2026-10-19 | `vinta/awesome-python` | 328519 | `SECURE` |
 | 2026-10-19 | `practical-tutorials/project-based-learning` | 287207 | `SECURE` |
+| 2026-10-20 | `public-apis/public-apis` | 490577 | `SECURE` |
+| 2026-10-20 | `EbookFoundation/free-programming-books` | 399607 | `SECURE` |
+| 2026-10-20 | `donnemartin/system-design-primer` | 374815 | `SECURE` |
+| 2026-10-20 | `vinta/awesome-python` | 328778 | `SECURE` |
+| 2026-10-20 | `practical-tutorials/project-based-learning` | 287327 | `SECURE` |
