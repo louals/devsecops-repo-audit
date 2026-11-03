@@ -59,3 +59,8 @@ Chronological archive of all past daily security scans.
 | 2026-11-02 | `donnemartin/system-design-primer` | 376471 | `SECURE` |
 | 2026-11-02 | `vinta/awesome-python` | 331855 | `SECURE` |
 | 2026-11-02 | `practical-tutorials/project-based-learning` | 288722 | `SECURE` |
+| 2026-11-03 | `public-apis/public-apis` | 495612 | `SECURE` |
+| 2026-11-03 | `EbookFoundation/free-programming-books` | 400770 | `SECURE` |
+| 2026-11-03 | `donnemartin/system-design-primer` | 376589 | `SECURE` |
+| 2026-11-03 | `vinta/awesome-python` | 332074 | `SECURE` |
+| 2026-11-03 | `practical-tutorials/project-based-learning` | 288835 | `SECURE` |
