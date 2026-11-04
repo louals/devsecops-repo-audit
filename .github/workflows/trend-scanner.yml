@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit & Push Audit Logs
         run: |
-          git config --global user.name "secops-bot[bot]"
-          git config --global user.email "secops-bot[bot]@users.noreply.github.com"
+          git config --global user.name "louals"
+          git config --global user.email "lou.als2904@gmail.com"
           git add README.md HISTORY.md reports/
           git diff-index --quiet HEAD || git commit -m "secops: update daily trending audit log [$(date -u +'%Y-%m-%d')]"
           git push
