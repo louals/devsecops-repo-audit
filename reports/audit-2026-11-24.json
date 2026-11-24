@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-24",
+  "target_ecosystem": "Python",
+  "findings": [
+    {
+      "repository": "public-apis/public-apis",
+      "stars": 501114,
+      "last_updated": "2026-11-24T08:51:42Z",
+      "vulnerability_status": "SECURE",
+      "active_advisories": 0
+    },
+    {
+      "repository": "EbookFoundation/free-programming-books",
+      "stars": 402170,
+      "last_updated": "2026-11-24T08:42:09Z",
+      "vulnerability_status": "SECURE",
+      "active_advisories": 0
+    },
+    {
+      "repository": "donnemartin/system-design-primer",
+      "stars": 378985,
+      "last_updated": "2026-11-24T08:41:07Z",
+      "vulnerability_status": "SECURE",
+      "active_advisories": 0
+    },
+    {
+      "repository": "vinta/awesome-python",
+      "stars": 336781,
+      "last_updated": "2026-11-24T08:53:25Z",
+      "vulnerability_status": "SECURE",
+      "active_advisories": 0
+    },
+    {
+      "repository": "practical-tutorials/project-based-learning",
+      "stars": 290369,
+      "last_updated": "2026-11-24T08:52:25Z",
+      "vulnerability_status": "SECURE",
+      "active_advisories": 0
+    }
+  ]
+}
